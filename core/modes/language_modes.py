@@ -28,7 +28,7 @@ language_extensions = {
     # 'powershell': 'ps1',
     "python": "py",
     "protobuf": "proto",
-    "r": "r",
+    "r": "r R",
     # 'racket': 'rkt',
     "ruby": "rb",
     "rust": "rs",
