@@ -317,7 +317,7 @@ class UserActions:
         actions.user.insert_between("library(", ")")
 
     def code_comment_line_prefix():
-        actions.auto_insert("#")
+        actions.auto_insert("# ")
 
     def code_state_return():
         actions.user.insert_between("return(", ")")

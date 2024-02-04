@@ -37,17 +37,17 @@ left join:
     "\nleft join"
     key(enter)
     "x"
-    key(enter tab)
+    key(enter)
     "on"
 right join:
     "\nright join"
     key(enter)
     "x"
-    key(enter tab)
+    key(enter)
     "on"
 
 with:
-    "with x as base ("
+    "with base as ("
     key(enter)
     "select\n"
     key(tab)
