@@ -76,6 +76,7 @@ ctx.lists["user.code_keyword"] = {
 ctx.lists["user.code_libraries"] = {
     "rejects": "re",
     "json": "json",
+    "data classes": "dataclasses",
 }
 
 
