@@ -73,6 +73,12 @@ ctx.lists["user.code_keyword"] = {
     "from": "from ",
 }
 
+ctx.lists["user.code_libraries"] = {
+    "rejects": "re",
+    "json": "json",
+}
+
+
 exception_list = [
     "BaseException",
     "SystemExit",
@@ -295,6 +301,9 @@ class UserActions:
 
     def code_import():
         actions.auto_insert("import ")
+    
+    def code_insert_library(text: str, selection: str):
+        actions.user.paste(f"import {text}")
 
     def code_comment_line_prefix():
         actions.auto_insert("# ")
