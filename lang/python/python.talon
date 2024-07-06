@@ -54,3 +54,5 @@ import <user.code_libraries>:
     key(end enter)
 
 from import: user.insert_between("from ", " import ")
+
+breakpoint: insert("breakpoint()")
