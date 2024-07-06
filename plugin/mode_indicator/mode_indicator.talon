@@ -20,6 +20,6 @@ settings():
     # MediumSeaGreen color for mixed mode
     user.mode_indicator_color_mixed = "3cb371"
     # CornflowerBlue color for command mode
-    user.mode_indicator_color_command = "6495ed"
+    user.mode_indicator_color_command = "3bd188"
     # GhostWhite color for other modes
     user.mode_indicator_color_other = "f8f8ff"
