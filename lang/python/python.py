@@ -71,6 +71,8 @@ ctx.lists["user.code_keyword"] = {
     "false": "False",
     "yield": "yield ",
     "from": "from ",
+    "assert": "assert ",
+    "self": "self",
 }
 
 ctx.lists["user.code_libraries"] = {
